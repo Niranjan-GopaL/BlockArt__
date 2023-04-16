@@ -1,0 +1,26 @@
+React Native DOcumentation, just like React documentation is the best resource for learning it.
+YOU NEED to learn how to learn from DOCS.
+
+
+1)
+
+<----PROGRESS LOGS----------------------------------------------------------------------------------------------------------------------------->
+
+1)  We are using Expo CLI for our react-native app, normally pro peple use Xcode or 
+    Android Studios for App dev, but they are dozens of gb and really heavy to config
+
+    -npx create-expo-app AwesomeProject 
+    ( From react-native docs | 
+     I was not able to do ./ cuz no files are allowed to be there in the dir, 
+     but we had  notes.txt and README.md files ) 
+
+    To run your project, navigate to the directory and run one of the following npm commands.
+
+    - cd temp
+    - npm run android
+    - npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do 
+    iOS development without a Mac
+    - npm run web
+
+
+    (Docs have slightly changed since the Vid)
