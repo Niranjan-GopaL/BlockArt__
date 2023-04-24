@@ -1,8 +1,18 @@
-React Native Documentation, just like React documentation is the best resource for learning it.
-YOU NEED to learn how to learn from DOCS.
+-   React Native Documentation, just like React documentation is the best resource for learning it.
+    YOU NEED to learn how to learn from DOCS.
+-   React Navigation Docs are also really good (IT'S LIKE REACT ROUTER)
+
+-   ONLY read about the components that are used in project
+
+
 
 REMEMBER
-1)
+1)  rnfe
+2)  You are currently designing Button.jsx and Landing page.
+    Everything wokrs fantastically.
+
+
+
 
 <----PROGRESS LOGS----------------------------------------------------------------------------------------------------------------------------->
 
@@ -94,3 +104,92 @@ NOW IT WORLKED , I HAVE NO IDEA HOW MANY STUFF IS BROKEN IN THIS PROJECT , YAY!!
 <------------------------------------------------------------------------------------------------------->
 
 6)  Workiing on App.jsx right now
+
+7) Working on App.js =>
+    Made themes , Stack (for navigation )
+
+8) (i) Setting up folder structures => screens -
+                                            |- Details
+                                            |
+                                            |- Home
+    (ii) rafce 
+        But we DONT HAVE DIVS IN NATIVE. so just return a string (and not div) of whatever div enclosed
+
+        How strings are in native:-
+
+        import { Text } from "react-native"
+
+        const Home = () => {
+        return (
+            <Text>
+            Home
+            </Text>
+        )
+        }
+
+        export default Home
+    
+    (iii)
+    <Stack.Navigator
+        screenOptions={{headerShown: false,}}
+        initialRouteName="Home">
+
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Details" component={Details} />
+         
+      </Stack.Navigator>
+
+
+    (iv) components folder 
+        FYI---------------------- SOOO FUCKING USEFUL -----------------------------------------------
+
+        rnfe (react native functional Export component ) snippets on :-
+    
+        Button.js
+        DetailsBid.js
+        DetailsDesc.js
+        FocusedStatusBar.js
+        HomeHeader.js
+        NFTCard.js
+        SubInfo.js
+        index.js
+
+
+
+9) INITIALISING THE FONTS THAT WE'LL BE USING THROUGHOUT THE APPLICATION (Download the assets and constants )
+
+
+HOME-------------------------------------------------------------------------------------------------------------------------
+
+10) (i)  initial STUFF 
+    (ii) THen designing FocusedStatusBar component
+    (iii)NOW OUR BAR AT THE TOP (THERE IS A BLACK BG ON OUR BATTERY,TIME,ETC BAR ,i.e OUR STATUS BAR IS BLACK)
+
+    In Home.js, try changing the color to different, you can see STATUSBAR IN PHONE CHANGING COLOUR
+          <FocusedStatusBar backgroundColor={COLORS.secondary} />
+
+    (iv)
+    Similarly play around with these:- 
+
+        {/* This div or view rather ==>  BACKGROUND OF OUT NFT LIST */}
+          <View
+            style={{
+              position: "absolute",
+              top: 0,
+              bottom: 0,
+              right: 0,
+              left: 0,
+              zIndex: -1,}}>
+
+            <View style={{ height: 300, backgroundColor: COLORS.primary }} />
+            <View style={{ flex: 1, backgroundColor: COLORS.white }} />
+
+          </View>
+
+    (v) designing NFTCard component 
+
+        HOLY SHIT NOW WE CAN SCROLL THROUGH BOXES!!
+        HOLY SHIT NOW WE HAVE IMAGES INSIDE NFT CARDS!!
+
+    (vi) designing Button.js 
+
