@@ -8,13 +8,49 @@
 
 REMEMBER
 1)  rnfe
-2)  You are currently designing Button.jsx and Landing page.
+2)  You are currently designing Button.jsx 
+    In Landing page you need to work from App.jsx onwards.
     Everything wokrs fantastically.
 
 
+<----PROGRESS LOGS FOR SHOWCASE SITE--------------------------------------------------------------------------------
+
+1)  npm create vite@latest 
+
+2)  npm install -D tailwindcss postcss autoprefixer (From tailwind docs)
+    npx tailwindcss init -p
+
+    configured vite to auto  start server
+    configured tailwind.config.json
+
+    adding tailwind directives to index.css
+
+    App.css is not required, so we delete that
+
+    Got index.css
+
+    So we have tailwind hooked up.
+
+3)  Made the file and folder structure inside src. Downloaded the assets 
+    All the components are initialised
 
 
-<----PROGRESS LOGS----------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<----PROGRESS LOGS FOR APP----------------------------------------------------------------------------------------------------------------------------->
 
 1)  We are using Expo CLI for our react-native app, normally pro peple use Xcode or 
     Android Studios for App dev, but they are dozens of gb and really heavy to config
