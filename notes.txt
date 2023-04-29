@@ -229,3 +229,46 @@ HOME----------------------------------------------------------------------------
 
     (vi) designing Button.js 
 
+export default comp1 => Allows you to import only on component ===>
+
+const comp1 = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default comp1
+
+====================================================================>
+
+For exporting multiple components from a file do this:-
+
+export default comp1 = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default const comp2 = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default const comp3 = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+=========================================================================
+
+
+SO in out Button.js ===> RectButton and CircleButton both are exported.

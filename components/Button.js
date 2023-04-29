@@ -1,12 +1,31 @@
-
+// there are two Buttons being exported:- CircleButton and RectButton
 import { TouchableOpacity, Text, Image } from "react-native";
 import { COLORS, SIZES, FONTS, SHADOWS } from "../constants";
 
-export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
 
+
+// The MOST BASIC SKELETON FOR BUTTONS 
+function Rectangularbutton () {
+  <TouchableOpacity>
+    <Text>
+        Press thiS to go to Euphoria !!!
+    </Text>
+  </TouchableOpacity>
+}
+
+
+function Circlebutton ({some_url}) {
+  <TouchableOpacity>
+    <Image source={some_url} />
+  </TouchableOpacity>
+}
+
+
+
+export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
   return (
 
-    // In mobile devices we click stuff
+    // In mobile devices we touch stuff and not "click". so things are not "clickable", they are "touchable" 
     <TouchableOpacity
       style={{
         width: 40,
@@ -29,6 +48,12 @@ export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
     </TouchableOpacity>
   );
 };
+
+
+
+
+
+
 
 export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
   return (
