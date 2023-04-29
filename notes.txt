@@ -243,9 +243,9 @@ export default comp1
 
 ====================================================================>
 
-For exporting multiple components from a file do this:-
+For exporting multiple components from a file do this. There is no "default" just export thats it.
 
-export default comp1 = () => {
+export const comp1 = () => {
   return (
     <div>
       
@@ -253,7 +253,7 @@ export default comp1 = () => {
   )
 }
 
-export default const comp2 = () => {
+export  const comp2 = () => {
   return (
     <div>
       
@@ -261,7 +261,7 @@ export default const comp2 = () => {
   )
 }
 
-export default const comp3 = () => {
+export  const comp3 = () => {
   return (
     <div>
       
