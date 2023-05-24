@@ -1,3 +1,4 @@
+// SHorthanded all tailwind classses. THIS TECHNIQUE IS BRILLIANT
 const styles = {
     whiteText: "text-white",
     blackText: "text-tertiary",
