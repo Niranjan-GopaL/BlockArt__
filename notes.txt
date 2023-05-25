@@ -35,7 +35,13 @@ REMEMBER
     All the components are initialised
 
 
+4) In order for it to work on wsl, Deleted node_modules and reinstalled in wsl env
 
+5) All works phew. Global.js IS INSANE :-
+      ALL THE VERBOSE REPEATED TAILWIND CSS CLASSES (THAT ARE FREQUENTLY USED THROUGHOUT THE SITE IS WRITTEN HERE)
+      CLEVERRRRRRRRRRR
+
+6) WOrking on SectionWrapper.jsx component
 
 
 
