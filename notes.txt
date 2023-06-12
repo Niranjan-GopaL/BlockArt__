@@ -22,7 +22,29 @@ HOW TO INSTALL DEPENDENCIES !!!
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <----PROGRESS LOGS FOR SHOWCASE SITE--------------------------------------------------------------------------------
+
+
+
 
 1)  npm create vite@latest 
 
@@ -65,7 +87,10 @@ HOW TO INSTALL DEPENDENCIES !!!
 
 
 
-<----PROGRESS LOGS FOR APP----------------------------------------------------------------------------------------------------------------------------->
+<--------------------PROGRESS LOGS FOR APP----------------------------------------------------------------------------------------------------------------------------->
+
+
+
 
 1)  We are using Expo CLI for our react-native app, normally pro peple use Xcode or 
     Android Studios for App dev, but they are dozens of gb and really heavy to config
@@ -307,3 +332,15 @@ SO in out Button.js ===> RectButton and CircleButton both are exported.
 
                       ---------  THE ENTIRE WORKFLOW HAS BEEN MIGRATED TO LINUX ---------
 
+
+
+
+HOW TO INSTALL DEPENDENCIES !!!
+
+    yarn add expo            ( CUZ FUCKKK NPM)
+    npx expo start --tunnel  ( IT"LL install the dependencies on it's own )
+
+    and it runs FINE !!!!!
+
+
+12)  THe work begins again
