@@ -13,6 +13,15 @@ REMEMBER
     Everything wokrs fantastically.
 
 
+
+
+HOW TO INSTALL DEPENDENCIES !!!
+
+3)  yarn add expo            ( CUZ FUCKKK NPM)
+    npx expo start --tunnel  ( IT"LL install the dependencies on it's own )
+
+
+
 <----PROGRESS LOGS FOR SHOWCASE SITE--------------------------------------------------------------------------------
 
 1)  npm create vite@latest 
@@ -114,6 +123,9 @@ REMEMBER
     "@babel/core": "^7.12.9"
   },
 
+
+
+ // ------------------- note : installing using this command gave me a lot of errors ------- 
 INSTALL THOSE dependencies:-
 
         npm i --legacy-peer-deps
@@ -145,7 +157,7 @@ GIVEN IN CLI:-
 NOW IT WORLKED , I HAVE NO IDEA HOW MANY STUFF IS BROKEN IN THIS PROJECT , YAY!!!!!!!!!
 <------------------------------------------------------------------------------------------------------->
 
-6)  Workiing on App.jsx right now
+6)  Working on App.js right now
 
 7) Working on App.js =>
     Made themes , Stack (for navigation )
@@ -278,3 +290,20 @@ export  const comp3 = () => {
 
 
 SO in out Button.js ===> RectButton and CircleButton both are exported.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      ---------  THE ENTIRE WORKFLOW HAS BEEN MIGRATED TO LINUX ---------
+
