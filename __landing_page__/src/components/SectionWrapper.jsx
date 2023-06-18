@@ -21,6 +21,13 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
     // min-h-screen => just hover over and you'll see what it means
     // we are using those global styles (ctrl click and you'll see)
 
+    // we use the reverse prop to render the images differently :-
+    //    reverse ? white text              : black text         // text color  
+    //    reverse ? styles.bgWhite          : styles.bgPrimary   // bg color
+    //    reverse ? styles.boxReverseClass  : styles.boxClass    // left or right side   
+    //    reverse ? " fadeRightMini"        : " fadeLeftMini"    // animation
+
+
     // TEMPLATE STRINGS ARE AWESOME. THEY ALLOW US TO PASS VARIABLES ALONG WITH STRINGS
     <div className={`min-h-screen ${styles.section} 
     ${reverse ? styles.bgWhite : styles.bgPrimary} 
