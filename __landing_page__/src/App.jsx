@@ -15,8 +15,10 @@ const App = () => {
             />
             <SectionWrapper
                 title="Smart User Interface Marketplace"
-                description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+                description="Nisi dolore eu minim velit.Officia Lorem commodo ad sit incididunt aliquip reprehenderit ea esse eiusmod sunt laborum."
                 mockupImg={assets.homeCards}
+                // this is not a banner section but we can make a prop called reverse
+                // and based on wheather this prop is set to true we can change how the image is going to be layouted 
                 reverse
             />
                 
@@ -24,7 +26,7 @@ const App = () => {
 
             <SectionWrapper
                 title="Deployment"
-                description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
+                description="ProNef is built using Expo which runs natively on all users' devices. Add more meainngful stuff    "
                 mockupImg={assets.feature}
                 reverse
             />
@@ -40,7 +42,7 @@ const App = () => {
             <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
                 <p className={`${styles.pText} ${styles.whiteText}`}>
                     Made with love by{" "}
-                    <span className="bold">JavaScript Mastery</span>
+                    <span className="bold">Laconic</span>
                 </p>
             </div>
 
