@@ -13,6 +13,8 @@ const App = () => {
                 mockupImg={assets.homeHero}
                 banner="banner"
             />
+
+            {/* Second Section , notice that it's REVERSE (cuz we send the reverse prop) */}
             <SectionWrapper
                 title="Smart User Interface Marketplace"
                 description="Nisi dolore eu minim velit.Officia Lorem commodo ad sit incididunt aliquip reprehenderit ea esse eiusmod sunt laborum."
