@@ -2,6 +2,20 @@ import { Download, Features, SectionWrapper } from "./components";
 import assets from "./assets";
 import styles from "./styles/Global";
 
+
+/*
+This is perfect example of how to make a AMAZING SHOWCASE WEBSITE QUICKKKKKKKKKKKKK!!
+
+Few things that is easy to impl but makes it look pro :-
+
+        ->  Animations
+        ->  A prop that conditionally renders layouts differently  
+        ->  TAILWIND 
+
+*/
+
+
+
 const App = () => {
     return (
         <>
