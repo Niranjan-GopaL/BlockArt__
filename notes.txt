@@ -74,8 +74,21 @@ HOW TO INSTALL DEPENDENCIES !!!
 
 6) WOrking on SectionWrapper.jsx component
 
+7) Finished working on the Button component that says "View in Expo Store"
 
 
+
+
+
+
+8) THE TAILWIND CONFIG FILE IS MODIFIED TO GIVE A GLOBAL TAILWIND CUSTOM MODIFICATION
+   THAT FIXED THE IMAGE BEING UNREASONABLE!!!
+
+
+
+
+
+9)
 
 
 
