@@ -54,6 +54,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
 
       </div>
 
+          
       <div
         className={`flex-1 ${styles.flexCenter}p-8 sm:px-0`}
       >
