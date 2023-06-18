@@ -96,6 +96,38 @@ HOW TO INSTALL DEPENDENCIES !!!
 12) Footer component made
 
 
+DONE!!!!!!!!!!!!!!!!
+
+
+
+This is perfect example of how to make a AMAZING SHOWCASE WEBSITE QUICKKKKKKKKKKKKK!!
+
+Few things that is easy to impl but makes it look pro :-
+
+        ->  Animations
+        ->  A prop that conditionally renders layouts differently  
+        ->  TAILWIND 
+
+
+<------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
