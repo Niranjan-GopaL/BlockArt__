@@ -79,16 +79,21 @@ HOW TO INSTALL DEPENDENCIES !!!
 
 
 
-
-
+!!!!----------------------------------------------------------------------------------------!!!!
 8) THE TAILWIND CONFIG FILE IS MODIFIED TO GIVE A GLOBAL TAILWIND CUSTOM MODIFICATION
    THAT FIXED THE IMAGE BEING UNREASONABLE!!!
+!!!!----------------------------------------------------------------------------------------!!!!
 
 
 
 
+9) Reverse prop implemented for sectionWrapper so that we can manipulate how the Section needs to be layouted
 
-9)
+10) Feature component made 
+
+11) Download component made
+
+12) Footer component made
 
 
 
