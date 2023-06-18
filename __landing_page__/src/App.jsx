@@ -26,12 +26,14 @@ const App = () => {
                 
             <Features />
 
+            {/* This is SOO COOL. just keeping on reusing the stuff */}
             <SectionWrapper
                 title="Deployment"
                 description="ProNef is built using Expo which runs natively on all users' devices. Add more meainngful stuff    "
                 mockupImg={assets.feature}
                 reverse
             />
+
             <SectionWrapper
                 title="Creative way to showcase the store"
                 description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT."
